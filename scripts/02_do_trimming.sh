@@ -27,12 +27,12 @@ for fq in ${fqDir}/*1.fastq.gz
 # do trimming
 # on simple end fq files
 		trimmomatic SE \
-		-threads 12 \
+		-threads 10 \
 		-phred33 \
 		${fqDir}/${fqbase}.fastq.gz \
 		${outDir}/${fqbase}.trim.fastq.gz \
-		ILLUMINACLIP:${adapDir}/TruSeq3-SE.fa:2:30:5 \
-		SLIDINGWINDOW:4:28 \
+		ILLUMINACLIP:${adapDir}/TruSeq3-SE.fa:2:30:10 \
+		SLIDINGWINDOW:4:15 \
 		MINLEN:4 \
 	 &> ${outDir}/${fqbase}_trimmomatic.log
 
@@ -45,4 +45,3 @@ for fq in ${fqDir}/*1.fastq.gz
 # References:
 # https://www.biostars.org/p/288031/
 # https://datacarpentry.org/wrangling-genomics/03-trimming.html
-
