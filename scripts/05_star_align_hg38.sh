@@ -7,7 +7,7 @@ fqDir=../02_trimmed_fq_files
 
 # create general out dir
 
-outDir=../03_output/UPAEP_star_hg38_alignment
+outDir=../03_output/UPAEP_star_hg38_alignment_v2.modified
 mkdir -p ${outDir}
 
 
