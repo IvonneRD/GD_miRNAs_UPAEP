@@ -38,7 +38,7 @@ for fq in ${fqDir}/*1.fastq.gz
 
 	duration=${SECONDS}
 	echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed." \
-	> ${outDir}/${base}_execution_time.txt
+	> ${outDir}/${fqbase}_execution_time.txt
 
 	done
 
