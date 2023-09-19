@@ -11,6 +11,9 @@ fastqc ${fqDir}/*.fastq.gz \
  -o ${outDir} \
  -t 10
 
+#move trimmomatic logs to trimmed fq qc reports
+mv ${fqDir}/*.log ${outDir}
+
 
 # get multiqc report (from fastqc reports) for trimmed fq samples
 multiqc \
