@@ -31,8 +31,8 @@ for fq in ${fqDir}/*1.fastq.gz
 		-phred33 \
 		${fqDir}/${fqbase}.fastq.gz \
 		${outDir}/${fqbase}.trim.fastq.gz \
-		ILLUMINACLIP:${adapDir}/TruSeq3-SE.fa:2:30:10 \
-		SLIDINGWINDOW:4:15 \
+		ILLUMINACLIP:${adapDir}/TruSeq3-SE.fa:2:30:5 \
+		SLIDINGWINDOW:4:28 \
 		MINLEN:4 \
 	 &> ${outDir}/${fqbase}_trimmomatic.log
 
