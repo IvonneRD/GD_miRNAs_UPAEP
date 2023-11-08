@@ -17,7 +17,7 @@ mv ${fqDir}/*.log ${outDir}
 
 # get multiqc report (from fastqc reports) for trimmed fq samples
 multiqc \
-	-n trm_EB-UPAEP_multiqc-report_v2 \
-	-i trm_Ctrl_vs_PXS_v2 \
+	-n trm_EB-UPAEP_multiqc-report \
+	-i trm_Ctrl_vs_PXS \
 	-o ${outDir} \
 	${outDir}
