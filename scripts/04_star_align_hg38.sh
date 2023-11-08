@@ -7,7 +7,7 @@ fqDir=../02_trimmed_fq_files
 
 # create general out dir
 
-outDir=../03_output/UPAEP_star_hg38_alignment_v2.modified
+outDir=../03_output/UPAEP_star_hg38_alignment
 mkdir -p ${outDir}
 
 
@@ -47,11 +47,6 @@ for fq in ${fqDir}/*001.trim.fastq.gz
 		--readFilesCommand zcat \
 		--sjdbGTFfile ${gtfDir}/gencode.v43.annotation.gtf \
 		--twopassMode Basic \
-		--outFilterMismatchNoverLmax 0.05 \
-		--outFilterMatchNmin 16 \
-		--outFilterScoreMinOverLread 0 \
-		--outFilterMatchNminOverLread 0 \
-		--alignIntronMax 1 \
 		--outFileNamePrefix ${alignOutDir}/${fqbase}_ \
 		--outSAMtype BAM SortedByCoordinate \
 		--quantMode TranscriptomeSAM GeneCounts
