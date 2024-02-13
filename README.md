@@ -18,7 +18,7 @@
 ### Software:
 | Requirement | Version  | Required Commands * |
 |:---------:|:--------:|:-------------------:|
-| [Miniconda](https://docs.anaconda.com/free/miniconda/index.html) | 23.5.0-3 | 
+| [Miniconda] > 23.5.0-3 | conda env create, conda activate, conda deactivate | 
 \* These commands must be accessible from your `$PATH` (*i.e.* you should be able to invoke them from your command line).  
 
 ---
