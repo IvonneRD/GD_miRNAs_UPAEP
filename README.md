@@ -9,7 +9,9 @@
 ## Requirements
 
 [![Ubuntu](https://img.shields.io/badge/ubuntu-%E2%89%A518.04-orange.svg)](https://releases.ubuntu.com/18.04/)
-[![R](https://img.shields.io/badge/R-%E2%89%A54.2.2-blue.svg)]()
+[![Miniconda](https://img.shields.io/badge/Miniconda-%E2%89%A523.5.0-3-green.svg)](https://cran.r-project.org/bin/windows/base/old/4.2.2/)
+[![R](https://img.shields.io/badge/R-%E2%89%A54.2.2-blue.svg)](https://cran.r-project.org/bin/windows/base/old/4.2.2/)
+
 
 
 
