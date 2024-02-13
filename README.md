@@ -7,9 +7,11 @@
 ---
 
 ## Requirements
-### Compatible OS*:
-* [Ubuntu 18.04.6 LTS](https://releases.ubuntu.com/18.04/)
-* [Ubuntu 20.04.4 LTS](https://releases.ubuntu.com/focal/)
+
+[![Ubuntu](https://img.shields.io/badge/ubuntu-%E2%89%A518.04-orange.svg)](https://releases.ubuntu.com/18.04/)
+[![R](https://img.shields.io/badge/R-%E2%89%A54.2.2-blue.svg)]()
+
+
 
 ### Software:
 | Requirement | Version  | Required Commands * |
