@@ -37,8 +37,6 @@
 |STAR|||
 |featureCounts|||
 |R|||
-\* Miniconda is required to install all the software needed; the commands from all the software is accesible from Miniconda `$PATH` (*i.e.* you should be able to invoke them from your command line).  
-\* These commands must be accessible from your `$PATH` (*i.e.* you should be able to invoke them from your command line).  
 
 
 
@@ -52,3 +50,8 @@
 |          [ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html)          |   PBS calculation; plots development |
 |          [tidyr](https://cran.r-project.org/web/packages/tidyr/index.html)          |   preprocessing and PBS calculation; data frame manipulation |
 |        [scales](https://scales.r-lib.org/)        | Results visualization |
+
+
+
+\* Miniconda is required to install all the software needed; the commands from all the software is accesible from Miniconda `$PATH` (*i.e.* you should be able to invoke them from your command line).  
+\* These commands must be accessible from your `$PATH` (*i.e.* you should be able to invoke them from your command line).  
