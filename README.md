@@ -38,7 +38,7 @@
 | Requirement | Version  | Required Commands * |
 |:---------:|:--------:|:-------------------:|
 | [Miniconda] | > 23.5 | conda env create, conda activate, conda deactivate, conda env list, conda list (https://docs.conda.io/projects/conda/en/latest/commands/index.html) |
-|fastqc|||
+|FastQC|||
 |trimmomatic|||
 |STAR|||
 |featureCounts|||
