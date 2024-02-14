@@ -7,17 +7,23 @@
 ---
 ### The aim of this project was to perform a comparative analysis of miRNA expression and to relate them to aspects of neurodevelopment in order to understand the pathophysiology of the disease. The study consisted in the analysis of two groups of newborns, the first one exposed in-utero to GD and the second one was a control group. Neurodevelopmental assessment was performed between 6 and 12 months of age and the extraction of mirNAs from heel blood sample, to later perform next-generation sequencing and miRNA-Seq Analysis.
 ---
-## miRNA-Seq Analysis Workflow Summary
+
+## Workflow
+
+### Workflow overview
+![General Workflow](dev_notes/epigen-rnaseq.png)
+
+
+### miRNA-Seq Analysis Workflow Summary
 
 1. fastq quality control (`fastqc`)
-2. fastq trimming (`trimmomatic`)
-3. Genome Alignment (`star`)
+2. fastq trimming (`trimmomatic` or `Trim Galore!`)
+3. Genome Alignment (`STAR`)
 4. Gene counts estimation (`featureCounts`)
-5. Differential Expression Analysis (`DESeq2 (DS2.R)`)
-6. Differential Expression Analysis Visualizations (`DS2-Vis.R`)
-
-## Workflow overview
-![General Workflow](docs/Workflow.png) 
+5. Differential Expression Analysis (`DESeq2`)
+6. Differential Expression Analysis Visualizations (`ggplot2`)
+7. Functional Analysis (`clusterProfiler` or `WebGestalt`)
+ 
 ---
 
 ## Requirements
